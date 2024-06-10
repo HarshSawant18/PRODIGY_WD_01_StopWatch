@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/11438/11438016.png" alt="Stopwatch Icon" width="40" height="34" class="d-inline-block align-text-top">
+                Stopwatch
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://img.freepik.com/free-vector/worried-male-female-characters-with-timer-background-woman-holding-clipboard-looking-time-clock-flat-vector-illustration-time-management-deadline-competition-countdown-concept_74855-22602.jpg?t=st=1718003510~exp=1718007110~hmac=e368ba207458090684e6ef8e610a2ad316d40b8c8da42d42587603963eee58bb&w=826" class="img-fluid" alt="Stopwatch Image">
+            </div>
+            <div class="col-md-6">
+                <div class="stopwatch-container border p-3">
+                    <h2 class="text-center border-bottom pb-2">Stopwatch</h2>
+                    <div class="clock-container text-center my-3">
+                        <div class="clock" id="clock">
+                            <div class="hand" id="hand"></div>
+                        </div>
+                    </div>
+                    <div class="time-display" id="time-display">00:00:00</div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-primary me-2" id="start-button">Start</button>
+                        <button class="btn btn-secondary me-2" id="stop-button">Stop</button>
+                        <button class="btn btn-danger" id="reset-button">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2024 Created By Harsh Sawant -  <a href="https://www.behance.net/harshsawant3"  style="    color: rgb(198 173 143);
+    font-family: serif;
+    font-weight: 600" target="_blank">Check my Portfolio</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
